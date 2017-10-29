@@ -1350,7 +1350,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 				return NULL;
 			}
 
-			if ( in_array( $method, array( 'update', 'open', 'delete', 'after_delete', 'after_update', 'dispense' ), TRUE ) ) {
+			if ( in_array( $method, array( 'update', 'open','after_open', 'delete', 'after_delete', 'after_update', 'dispense' ), TRUE ) ) {
 				return NULL;
 			}
 

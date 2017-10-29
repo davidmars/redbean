@@ -64,7 +64,7 @@ class SimpleModelHelper implements Observer
 	 */
 	public function attachEventListeners( Observable $observable )
 	{
-		foreach ( array( 'update', 'open', 'delete', 'after_delete', 'after_update', 'dispense' ) as $eventID ) {
+		foreach ( array( 'update', 'open','after_open', 'delete', 'after_delete', 'after_update', 'dispense' ) as $eventID ) {
 			$observable->addEventListener( $eventID, $this );
 		}
 	}
