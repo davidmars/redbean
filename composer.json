@@ -1,6 +1,6 @@
 {
-  "name": "gabordemooij/redbean",
-  "description": "RedBeanPHP ORM",
+  "name": "davidmars/redbean",
+  "description": "RedBeanPHP ORM (with an after_open event on models)",
   "keywords": ["orm"],
   "homepage": "http://redbeanphp.com/",
   "license": "New BSD and GPLv2",
