@@ -47,7 +47,7 @@ class Facade
 	/**
 	 * RedBeanPHP version constant.
 	 */
-	const C_REDBEANPHP_VERSION = '4.3';
+	const C_REDBEANPHP_VERSION = '5';
 
 	/**
 	 * @var ToolBox
@@ -1148,7 +1148,7 @@ class Facade
 	 * @param array  $row       one row from the database
 	 * @param string $metamask  metamask (see convertToBeans)
 	 *
-	 * @return array
+	 * @return RedBeanPHP\OODBBean
 	 */
 	public static function convertToBean( $type, $row, $metamask = NULL )
 	{

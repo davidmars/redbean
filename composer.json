@@ -2,13 +2,13 @@
   "name": "davidmars/redbean",
   "description": "RedBeanPHP ORM (with an after_open event on models)",
   "keywords": ["orm"],
-  "homepage": "http://redbeanphp.com/",
+  "homepage": "https://redbeanphp.com/",
   "license": "New BSD and GPLv2",
   "authors": [
     {
       "name": "Gabor de Mooij",
       "email": "gabor@redbeanphp.com",
-      "homepage": "http://redbeanphp.com"
+      "homepage": "https://redbeanphp.com"
     }
   ],
   "require": {
