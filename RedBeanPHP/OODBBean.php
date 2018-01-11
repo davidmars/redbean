@@ -27,6 +27,8 @@ if (interface_exists('\JsonSerializable')) {
  * @license BSD/GPLv2
  * @desc    OODBBean represents a bean. RedBeanPHP uses beans
  *
+ * @method SimpleModel box() Box the bean using the current model.
+ *
  * @copyright
  * copyright (c) G.J.G.T. (Gabor) de Mooij and the RedBeanPHP Community.
  * This source file is subject to the BSD/GPLv2 License that is bundled
