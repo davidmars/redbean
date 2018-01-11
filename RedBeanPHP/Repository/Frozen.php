@@ -191,7 +191,8 @@ class Frozen extends Repository
 		$this->nesting++;
 		$this->oodb->signal( 'open', $bean );
 		$this->nesting--;
-
-		return $bean->setMeta( 'tainted', FALSE );
+        $r= $bean->setMeta( 'tainted', FALSE );
+        $this->oodb->signal( 'after_open', $bean );
+        return $r;
 	}
 }
